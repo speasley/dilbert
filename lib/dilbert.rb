@@ -1,14 +1,18 @@
 require "dilbert/version"
 
 module Dilbert
-  # Your code goes here...
+  
   class Console
-    def initialize(*args)
-      
+    
+    def initialize(printer, dilbert_service)
+      @printer = printer
+      @dilbert_service = dilbert_service
     end
 
     def run(*args)
-      
+      @printer.puts @dilbert_service.fetch_latest
     end
+    
   end
+  
 end
