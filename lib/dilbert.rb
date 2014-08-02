@@ -1,4 +1,5 @@
 require "dilbert/version"
+require "dilbert/dilbert_service"
 
 module Dilbert
   # Your code goes here...
