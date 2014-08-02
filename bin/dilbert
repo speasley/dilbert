@@ -1,0 +1,4 @@
+require "dilbert"
+
+console = Dilbert::Console.new($stdout, Dilbert::DilbertService.new)
+console.run(ARGV)

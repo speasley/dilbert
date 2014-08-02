@@ -7,7 +7,7 @@ module Dilbert
 
       it "fetches the url to the latest dilbert comic" do
         subject.stub(:curl_command).and_return(returned_image_url)
-        expect(subject.fetch_latest).to eql("https://www.dilbert.com#{returned_image_url}".chomp)
+        expect(subject.fetch_latest).to eql("http://www.dilbert.com#{returned_image_url}".chomp)
       end
     end
   end

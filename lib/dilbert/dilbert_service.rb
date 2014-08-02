@@ -1,7 +1,7 @@
 module Dilbert
   class DilbertService
     def fetch_latest
-      "https://www.dilbert.com#{curl_command.chomp}"
+      "http://www.dilbert.com#{curl_command.chomp}"
     end
 
     def curl_command
