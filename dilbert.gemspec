@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Dilbert::VERSION
   spec.authors       = ["Stephen Peasley"]
   spec.email         = ["s@stephenpeasley.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Retrieve today's Dilbert comic strip from dilbert.com'}
+  spec.summary       = %q{Your dose of daily Dilbert}
+  spec.homepage      = "https://github.com/speasley/dilbert"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
